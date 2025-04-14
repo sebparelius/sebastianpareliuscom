@@ -37,11 +37,11 @@ main {
 }
 
 .square:nth-child(even) {
-    background-color: #f0d9b5; /* Light square */
+    background-color: #71af04; /* Light square */
 }
 
 .square:nth-child(odd) {
-    background-color: #b58863; /* Dark square */
+    background-color: #064c2e; /* Dark square */
 }
 
 .piece {

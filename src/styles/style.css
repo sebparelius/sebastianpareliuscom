@@ -18,6 +18,18 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    font-size: 5 em;
+    color:aqua;
+    text-align: right;
+    text-decoration: dotted underline;
+    text-decoration-color: #4b0082; /* Light purple underline */
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-shadow: 2px 2px 4px #000000; /* Black shadow */
+    animation: fadeIn 2s ease-in-out;
+
+ 
 main {
     padding: 20px;
     text-align: center;
