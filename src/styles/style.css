@@ -55,3 +55,11 @@ footer {
     from { transform: translateY(20px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
 }
+
+.color1 {
+    color: aqua;
+}
+
+.color2 {
+    color: #4b0082; /* Light purple */
+}
