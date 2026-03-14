@@ -3,18 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chess Game</title>
+    <title>Chess — Sebastian Parelius</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/chess.css">
 </head>
 <body>
     <header>
-        <h1>Chess Game</h1>
+        <a href="index.html" class="back-link">← back</a>
+        <h1>Chess</h1>
+        <span></span>
     </header>
     <main>
-        <div id="chessboard"></div>
+        <div class="game-info">
+            <div class="turn-indicator">
+                <div class="turn-dot white" id="turn-dot"></div>
+                <span id="turn-label">White to move</span>
+            </div>
+            <span id="status"></span>
+            <button type="button" class="btn-new-game" id="new-game">New Game</button>
+        </div>
+        <div class="board-wrapper">
+            <div id="chessboard"></div>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2025 Simple Web Page</p>
+        <p>© 2025 Sebastian Parelius</p>
     </footer>
     <script src="scripts/chess.js"></script>
 </body>
